@@ -1,0 +1,760 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <title>Мото-тур</title>
+    <link rel="shortcut icon" href="image/logo/logo-3.ico" type="image/x-icon">
+    <link href="fonts/BebasNeue/stylesheet.css" rel="stylesheet">
+    <link rel="shortcut icon" href="">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
+     <link href="css/style-form.css" rel="stylesheet" type="text/css" media="screen">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <script src="js/callform.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $(".choice-button").click(function() {
+                $(".button-south").toggleClass("button-south-2");
+                $(".button-north").toggleClass("button-north-2");
+                $(".choice-header-part-2-price-south").toggleClass("choice-header-part-2-price-north");
+                $(".another-price-items-photo-south").toggleClass("another-price-items-photo-north");
+                $(".another-price-items-video-south").toggleClass("another-price-items-video-north");
+                $(".choice-island-south").toggleClass("choice-island-sourth-none");
+                $(".choice-island-north-none").toggleClass("choice-island-north");
+                return false;
+            });
+        });
+
+    </script>
+</head>
+
+<body>
+    <wrapper>
+       <div class="overlay"></div>
+    <div class="popup">
+        <div class="close_modal">&times;</div>
+        <form class="fofm" action="">
+            <h5>ОБРАТНАЯ СВЯЗЬ</h5>
+            <p>Ваше имя *</p>
+            <input type="text" required placeholder="Поле обязательное для заполнения" name="txtname">
+            <p>Телефон *</p>
+            <input type="tel" pattern="^((8|\+7)[\- ]?)?(\(?\d{3}\)?[\- ]?)?[\d\- ]{7,10}$" required placeholder="Поле обязательное для заполнения" name="txtphone">
+            <p>Email *</p>
+            <input type="email" required placeholder="Поле обязательное для заполнения" name="txtemail">
+            <p>Сообщение</p>
+            <textarea name="txtmessage" placeholder="" rows="10"></textarea>
+            <input type="hidden" name="txtorder" id="hidden-form" value="">
+            <input type="hidden" name="valTrFal" class="valTrFal" value="valTrFal_true">
+            <input type="submit" id="button" class="button" value="ОТПРАВИТЬ" name="btnsend">
+        </form>
+
+    </div>
+
+        <header>
+            <section class="header-video">
+                <div class="video-shell">
+                    <video class="header-video-clip" loop="loop" autoplay="" muted="">
+      <source src="http://denis-creative.com/wp-content/uploads/2018/01/video.mp4" type="video/mp4" /> 
+      <source src="http://denis-creative.com/wp-content/uploads/2018/01/video.ogv" type="video/ogv" /> 
+      <source src="http://denis-creative.com/wp-content/uploads/2018/01/video.webm" type="video/webm" /> 
+    </video>
+                </div>
+                <div class="rellax header-infoblock" data-rellax-speed="-4">
+                    <div class="header-infoblock-top">
+                        <div class="infoblock-slogan">
+                            <span class="infoblock-slogan-1">
+        Мототур
+        </span>
+                            <span class="infoblock-slogan-2">
+           по Пхукету
+        </span>
+                        </div>
+                    </div>
+                    <div class="header-infoblock-bottom">
+
+                        <div class="infoblock-items">
+                            <picture>
+                                <img class="infoblock-items-image" src="image/block-audio/clock.png" alt="" title="">
+                            </picture>
+                            <span>
+                              Экскурсия с 9 утра и заканчивается в 16:00дня (7 часов)
+                          </span>
+                        </div>
+                        <div class="infoblock-items">
+                            <picture>
+                                <img class="infoblock-items-image" src="image/block-audio/island.png" alt="" title="">
+                            </picture>
+                            <span>
+                              Самые красивые и уникальные места острова за один день
+                          </span>
+                        </div>
+                        <div class="infoblock-items">
+                            <picture>
+                                <img class="infoblock-items-image" src="image/block-audio/hotel.png" alt="" title="">
+                            </picture>
+                            <span>
+                              Мы забираем Вас с отеля и возвращаем обратно
+                          </span>
+                        </div>
+                        <div class="infoblock-items">
+                            <picture>
+                                <img class="infoblock-items-image" src="image/block-audio/gide.png" alt="" title="">
+                            </picture>
+                            <span>
+                              У каждого участника мототура свой водитель-гид
+                          </span>
+                        </div>
+                        <div class="infoblock-items">
+                            <picture>
+                                <img class="infoblock-items-image" src="image/block-audio/bike.png" alt="" title="">
+                            </picture>
+                            <span>
+                              Все водители-гиды мастера своего дела и давно живут на Пхукете
+                          </span>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+        </header>
+        <section class="moto-tour-choice">
+            <div class="moto-tour-choice-header">
+                <div class="choice-header-part-1">
+                    <span>
+            Выберите тур
+        </span>
+                    <picture>
+                        <img class="" src="image/choice-tour/arrow.png" alt="" title="">
+                    </picture>
+                    <div class="choice-header-part-1-button">
+                        <a class="choice-button" href="#"><span class="button-south">Юг</span><span class="button-north">Север</span></a>
+                    </div>
+                    <picture>
+                        <img class="" src="image/choice-tour/arrow.png" alt="" title="">
+                    </picture>
+                </div>
+                <div class="choice-header-part-2">
+                    <div class="choice-header-part-2-price-south">
+                        <span>
+                    Бат
+                </span>
+                    </div>
+                    <div class="choice-header-part-2-another-price">
+                        <div class="another-price-items">
+                            <span>
+                        Фотосессия
+                    </span>
+                            <span>
+                        Видеосъемка
+                    </span>
+                        </div>
+                        <div class="another-price-items">
+                            <picture class="another-price-items-photo-south">
+                                <img class="" src="image/choice-tour/BAT.png" alt="" title="">
+                            </picture>
+                            <picture class="another-price-items-video-south">
+                                <img class="" src="image/choice-tour/BAT.png" alt="" title="">
+                            </picture>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="map-tour rellax" data-rellax-speed="4">
+
+                <img class="choice-island-south" src="image/choice-tour/south.png">
+                <img class="choice-island-north-none" src="image/choice-tour/north.png">
+
+                <img src='image/choice-tour/map-tour.png' class="map-tour-island">
+                <div class="more" id="south-point-1">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">1</span>   
+                       <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>1</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                        <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.
+                        Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+
+                </div>
+                <div class="more" id="south-point-2">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">2</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>2</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                            <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-3">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">3</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>3</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                             <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-4">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">4</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>4</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                            <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-5">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">5</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span >5</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                          <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-6">
+                    <!-- id - имя этого плюса -->
+                    <a href="#" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">6</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>6</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                        <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-7">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">7</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>7</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                          <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="south-point-8">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">8</span> <div class="help-tip-content help-tip-content-south">
+                        <div class="help-tip-content-header">
+                            <span>8</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                           <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-1">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">1</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>1</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                        <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-2">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">2</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>2</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                            <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-3">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">3</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>3</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                         <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-4">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">4</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>4</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                            <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-5">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">5</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>5</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                            <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-6">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">6</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>6</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                          <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+                <div class="more" id="north-point-7">
+                    <!-- id - имя этого плюса -->
+                    <a href="#1" class="point-active"><img class="pointer" src="image/choice-tour/big-pointer.png"><span class="pointer-number">7</span> <div class="help-tip-content help-tip-content-north">
+                        <div class="help-tip-content-header">
+                            <span>7</span><h3>Обзорка трех пляжей</h3>
+                        </div>
+                         <img src="image/slider/1.jpg">
+                        <p>Равным образом рамки и место обучения кадров влечет за собой процесс внедрения и модернизации системы обучения кадров, соответствует насущным потребностям.</p></div></a>
+                </div>
+            </div>
+        </section>
+        <section class="moto-tour-info">
+            <div class="moto-tour-info-header">
+                <h2>Мототур в цифрах</h2>
+            </div>
+            <div class="palm">
+                <img class="rellax palm-img-info" data-rellax-speed="13" data-rellax-percentage="0.5" src="image/palm.png" alt="" title="">
+            </div>
+            <div class="statistics-inner moto-tour-info-statistic">
+                <div class="moto-tour-info-statistic-items">
+                    <picture>
+                        <img class="items-image" src="image/moto-tour-info/people.png" alt="" title="">
+                    </picture>
+                    <div class="stat items-info" data-count="900">
+                        <span class="number text-orange">900+</span>
+                        <span class="text-blue">людей</span>
+                        <div>Насладились этим<br>туром за время<br>существования экскурсии</div>
+                    </div>
+                </div>
+                <div class="moto-tour-info-statistic-items">
+                    <picture>
+                        <img class="items-image" src="image/moto-tour-info/km.png" alt="" title="">
+                    </picture>
+                    <div class="items-info">
+                        <span class="text-orange">95</span>
+                        <span class="text-blue">киллометров</span>
+                        <div>В среднем проезжает<br>мототурист<br>за один день</div>
+                    </div>
+                </div>
+                <div class="moto-tour-info-statistic-items">
+                    <picture>
+                        <img class="items-image" src="image/moto-tour-info/objects.png" alt="" title="">
+                    </picture>
+                    <div class="items-info">
+                        <span class="text-orange">16</span>
+                        <span class="text-blue">объектов</span>
+                        <div>Ровно столько Вы увидите<br>туристических<br>достопримичательностей</div>
+                    </div>
+                </div>
+            </div>
+            <div class="moto-tour-info-regulation" data-rellax-speed="-.5">
+                <div class="moto-tour-info-regulation-header">
+                    <h2>Для кого <span>этот </span>тур?</h2>
+                </div>
+                <div class="moto-tour-info-regulation-section">
+                    <div class="section-flex-up section-yes">
+                        <picture>
+                            <img class="" src="image/moto-tour-info-regulation/yes.png" alt="" title="">
+                        </picture>
+                        <div class="section-yes-content">
+                            <p>
+                                Для активных<br>и энергичных
+                            </p>
+                            <p>
+                                Для молодых<br>душой и телом
+                            </p>
+                            <p>
+                                Для любетелей<br>острых ощущений
+                            </p>
+                            <p>
+                                Для тех кто хочет познать<br>этот остров со всех сторон
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-flex-up section-no">
+                        <picture>
+                            <img class="" src="image/moto-tour-info-regulation/no.png" alt="" title="">
+                        </picture>
+                        <div class="section-no-content">
+                            <p>
+                                Не для зевак
+                            </p>
+                            <p>
+                                Не для зануд
+                            </p>
+                            <p>
+                                Не для скучных и унылых
+                            </p>
+                        </div>
+                    </div>
+                    <div class="section-flex-down section-how">
+                        <div class="regulation-section-header">
+                            <span>Как попасть?</span>
+                        </div>
+                        <div class="section-how-container">
+                            <div class="section-how-container-card">
+                                <img class="" src="image/moto-tour-info-regulation/how1.png" alt="" title="">
+                                <span>Оставьте заявку<br>или закажите<br>звонок</span>
+                            </div>
+                            <div class="section-how-container-card">
+                                <img class="" src="image/moto-tour-info-regulation/how2.png" alt="" title="">
+                                <span>Мы свяжемся с Вами  в самое<br>ближайшее<br>время</span>
+                            </div>
+                            <div class="section-how-container-card">
+                                <img class="" src="image/moto-tour-info-regulation/how3.png" alt="" title="">
+                                <span>Выберем<br>удобную дату</span>
+                            </div>
+                            <div class="section-how-container-card">
+                                <img class="" src="image/moto-tour-info-regulation/how4.png" alt="" title="">
+                                <span>И заберем Вас<br>на мототур по<br>Пхукету</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-flex-down section-things">
+                        <div class="regulation-section-header">
+                            <span>Что с собой взять?</span>
+                        </div>
+                        <div class="section-things-container">
+                            <div class="section-things-container-card">
+                                <img class="" src="image/section-things/swimsuit.png" alt="" title="">
+                                <span>Купальник</span>
+                            </div>
+                            <div class="section-things-container-card">
+                                <img class="" src="image/section-things/photo.png" alt="" title="">
+                                <span>Фото/видео<br>камеру</span>
+                            </div>
+                            <div class="section-things-container-card card-sun-cream">
+                                <img class="" src="image/section-things/sun-cream.png" alt="" title="">
+                                <span>Солнцезащитный<br>крем</span>
+                            </div>
+                            <div class="section-things-container-card">
+                                <img class="" src="image/section-things/glasses.png" alt="" title="">
+                                <span>Головной<br>убор</span>
+                            </div>
+                            <div class="section-things-container-card">
+                                <img class="" src="image/section-things/towel.png" alt="" title="">
+                                <span>Полотенце</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <section class="moto-tour-comments">
+            <div class="palm">
+                <img class="rellax palm-img-comments" data-rellax-speed="13" data-rellax-percentage="0.5" src="image/palm-2.png" alt="" title="">
+            </div>
+            <div class="moto-tour-comments-header">
+                <span>Отзывы</span>
+            </div>
+            <div id="container" class="cf slider rellax" data-rellax-speed="-.5">
+                <div class="flexslider">
+                    <ul class="slides">
+                        <li>
+                            <img src="image/slider/kitchen_adventurer_cheesecake_brownie.jpg" />
+                            <span class="name-client"> Иванов Сидоров Петров и другие
+                                Иванов Сидоров Петров и другие</span>
+                            <p class="flex-caption">Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie v Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie v Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie Adventurer Cheesecake Brownie
+                            </p>
+                        </li>
+                        <li>
+                            <img src="image/slider/kitchen_adventurer_lemon.jpg" />
+                            <span class="name-client"> Иванов Сидоров Петров и другие</span>
+                            <p class="flex-caption">Adventurer Lemon</p>
+                        </li>
+                        <li>
+                            <img src="image/slider/kitchen_adventurer_donut.jpg" />
+                            <span class="name-client"> Иванов Сидоров Петров и другие</span>
+                            <p class="flex-caption">Adventurer Donut</p>
+
+                        </li>
+                        <li>
+                            <img src="image/slider/kitchen_adventurer_caramel.jpg" />
+                            <span class="name-client"> Иванов Сидоров Петров и другие</span>
+                            <p class="flex-caption">Adventurer Caramel</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="moto-tour-why-we">
+            <div class="palm">
+                <img class="rellax palm-img-why-we" data-rellax-speed="13" data-rellax-percentage="0.5" src="image/palm-3.png" alt="" title="">
+            </div>
+            <div class="moto-tour-why-we-header">
+                <h2>
+                    Почему Мы?
+                </h2>
+            </div>
+            <div class="moto-tour-why-we-container">
+                <div class="why-we-items">
+                    <picture>
+                        <img class="why-we-items-image" src="image/moto-tour-why-we/hand.png" alt="" title="">
+                    </picture>
+                    <span>Мы любим то, что делаем<br>и даем больше, чем,<br>ожидают гости
+                </span>
+                </div>
+                <div class="why-we-items">
+                    <picture>
+                        <img class="why-we-items-image" src="image/moto-tour-why-we/mask.png" alt="" title="">
+                    </picture>
+                    <span>Это гибкий тур,<br>можете вносить свои корректировки!
+                </span>
+                </div>
+                <div class="why-we-items">
+                    <picture>
+                        <img class="why-we-items-image" src="image/moto-tour-why-we/helmet.png" alt="" title="">
+                    </picture>
+                    <span>Каждый водитель-гид<br>проффесионал<br>своего дела
+                </span>
+                </div>
+                <div class="why-we-items">
+                    <picture>
+                        <img class="why-we-items-image" src="image/moto-tour-why-we/landscape.png" alt="" title="">
+                    </picture>
+                    <span>Мы откроем<br>Вам всю прелесть<br>острова Пхукет
+                </span>
+                </div>
+                <div class="why-we-items">
+                    <picture>
+                        <img class="why-we-items-image" src="image/moto-tour-why-we/picnic.png" alt="" title="">
+                    </picture>
+                    <span>
+                             Мы веселые ребята,<br>которые знают этот<br>остров
+                          </span>
+                </div>
+
+            </div>
+            <div class="moto-tour-why-we-zakaz-tour">
+                <div class="why-we-zakaz-tour-button">
+                    <a href="#0" href="" class="header-contact__callform open_modal" data-product="Форма 1">
+                Заказать тур
+                </a>
+                </div>
+                <div class="why-we-zakaz-tour-tocall">
+                    <img class="why-we-items-phone" src="image/moto-tour-why-we/phone-1.png" alt="" title="">
+                    <span class="why-we-items-number">
+                    +66 980 62 68 62
+                </span>
+                    <div class="number-messenger">
+                        <img class="why-we-items-tocall-image" src="image/moto-tour-why-we/phone-2.png" alt="" title="">
+                        <img class="why-we-items-tocall-image" src="image/moto-tour-why-we/phone-3.png" alt="" title="">
+                        <img class="why-we-items-tocall-image" src="image/moto-tour-why-we/phone-4.png" alt="" title="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="moto-tour-another-tour">
+            <div class="another-tour-header">
+                <span>
+           Другие
+       </span>
+                <span>
+          Экскурсии
+       </span>
+            </div>
+            <div class="another-tour-row">
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-1.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-2.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-3.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="another-tour-row">
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-4.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-5.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-6.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-7.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+            </div>
+
+            <div class="another-tour-row">
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-8.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-9.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+                <div class="another-tour-img" href="#1">
+                    <img src="image/tour/another-tour-10.png" alt="">
+                    <span>Острова<br>Пхи-Пхи</span>
+                    <a href="#2" class="info">Подробнее</a>
+                </div>
+            </div>
+        </section>
+        <section class="moto-tour-footer">
+            <div class="palm">
+                <img class="rellax palm-img-footer" data-rellax-speed="-5" data-rellax-percentage="0.5" src="image/palm-4.png" alt="" title="">
+            </div>
+            <div class="moto-tour-footer-contact">
+                <div class="moto-tour-footer-contact-header">
+                    <h2>
+                        Контакты
+                    </h2>
+                </div>
+                <div class="contact-number-phone">
+                    <img class="footer-contact-number-image" src="image/moto-tour-why-we/phone-2.png" alt="" title="">
+                    <img class="footer-contact-number-image" src="image/moto-tour-why-we/phone-3.png" alt="" title="">
+                    <img class="footer-contact-number-image" src="image/moto-tour-why-we/phone-4.png" alt="" title="">
+                    <span class="footer-contact-number-tel">
+                    +66 980 62 68 62
+                </span>
+                </div>
+                <div class="contact-vk">
+                    <img class="contact-vk-img" src="image/footer/vk.png" alt="" title="">
+                    <span class="contact-social-name">
+               Написать админу
+           </span>
+                    <span class="contact-social-adress">
+               <a href="https://vk.com/ibetehtin" alt="" tittle="">vk.com/ibetehtin</a>
+           </span>
+                    <span class="contact-social-name">
+               Мототур по Пхукету
+           </span>
+                    <span class="contact-social-adress">
+               <a href="https://vk.com/welcom_to_thailand" alt="" tittle="">vk.com/welcom_to_thailand</a>
+           </span>
+                    <span class="contact-social-name">
+               Классические экскурсии
+           </span>
+                    <span class="contact-social-adress">
+               <a href="https://vk.com/phuketinlove" alt="" tittle="">vk.com/phuketinlove</a>
+           </span>
+
+                </div>
+                <div class="contact-social">
+
+                    <div class="contact-social-part contact-telegram">
+                        <img class="contact-social-part-img" src="image/footer/telegram.png" alt="" title="">
+                        <span class="contact-social-name">
+               Телеграм чат<br>Островитян Пхукета 
+           </span>
+                        <span class="contact-social-adress">
+               <a href="https://t.me/phuketinlove" alt="" tittle="">t.me/phuketinlove</a>
+           </span>
+                    </div>
+                    <div class="contact-social-part contact-instagram">
+                        <img class="contact-social-part-img" src="image/footer/instagram.png" alt="" title="">
+                        <span class="contact-social-name">
+              Инстраграм
+           </span>
+                        <span class="contact-social-adress">
+               <a href="https://Instagram.com/phuketinlove" alt="" tittle="">Instagram.com/phuketinlove</a>
+           </span>
+                    </div>
+                </div>
+            </div>
+            <div class="moto-tour-footer-rule">
+                <div class="footer-rule-text">
+                    <img class="footer-rule-text-img" src="image/footer/footer-C.png" alt="" title="">
+                    <span>
+    Нестандартный отдых на Пхукете, 2018
+            </span>
+                    <div>
+                        Любое использование произведения ( контента и дизайна )<br>может осуществляться только с разрешения правообладателя
+                    </div>
+                </div>
+            </div>
+        </section>
+    </wrapper>
+    <p id="back-top"><a href="#top"><span></span></a></p>
+
+    <!-- jQuery -->
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+
+    </script>
+
+    <!-- FlexSlider -->
+
+    <script defer src="js/jquery.flexslider.js"></script>
+
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('.flexslider').flexslider({
+                animation: "slide",
+                start: function(slider) {
+                    $('body').removeClass('loading');
+                }
+            });
+        });
+
+    </script>
+
+    <!--Parallax-->
+
+    <script src="js/rellax.min.js"></script>
+    <script>
+        // Accepts any class name
+        var rellax = new Rellax('.rellax', {
+            center: true
+        });
+
+    </script>
+
+    <!-- back to top -->
+
+    <script>
+        $(document).ready(function() {
+            $("#back-top").hide();
+            $(function() {
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 100) {
+                        $('#back-top').fadeIn();
+                    } else {
+                        $('#back-top').fadeOut();
+                    }
+                });
+                $('#back-top a').click(function() {
+                    $('body,html').animate({
+                        scrollTop: 0
+                    }, 800);
+                    return false;
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>
