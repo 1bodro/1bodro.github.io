@@ -17,22 +17,6 @@
     <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="screen">
      <link href="css/style-form.css" rel="stylesheet" type="text/css" media="screen">
     <script src="js/jquery-3.3.1.min.js"></script>
-
-    <script>
-        $(document).ready(function() {
-            $(".choice-button").click(function() {
-                $(".button-south").toggleClass("button-south-2");
-                $(".button-north").toggleClass("button-north-2");
-                $(".choice-header-part-2-price-south").toggleClass("choice-header-part-2-price-north");
-                $(".another-price-items-photo-south").toggleClass("another-price-items-photo-north");
-                $(".another-price-items-video-south").toggleClass("another-price-items-video-north");
-                $(".choice-island-south").toggleClass("choice-island-sourth-none");
-                $(".choice-island-north-none").toggleClass("choice-island-north");
-                return false;
-            });
-        });
-
-    </script>
 </head>
 
 <body>
@@ -695,14 +679,23 @@
     </wrapper>
     <p id="back-top"><a href="#top"><span></span></a></p>
 
-    <!-- jQuery -->
+    <!-- js-->
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>
-        window.jQuery || document.write('<script src="js/libs/jquery-1.7.min.js">\x3C/script>')
+   <script>
+        $(document).ready(function() {
+            $(".choice-button").click(function() {
+                $(".button-south").toggleClass("button-south-2");
+                $(".button-north").toggleClass("button-north-2");
+                $(".choice-header-part-2-price-south").toggleClass("choice-header-part-2-price-north");
+                $(".another-price-items-photo-south").toggleClass("another-price-items-photo-north");
+                $(".another-price-items-video-south").toggleClass("another-price-items-video-north");
+                $(".choice-island-south").toggleClass("choice-island-sourth-none");
+                $(".choice-island-north-none").toggleClass("choice-island-north");
+                return false;
+            });
+        });
 
     </script>
-
     <!-- FlexSlider -->
 
     <script defer src="js/jquery.flexslider.js"></script>
