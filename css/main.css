@@ -225,7 +225,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffff;
+    background: #fff;
     width: 100%;
     height: 6em;
     padding: 0 3em;
@@ -253,7 +253,7 @@ table {
     border: .15em solid #f57d00;
     border-right: none;
     background: #f57d00;
-    color: #ffff;
+    color: #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -265,7 +265,7 @@ table {
     padding: .3em;
     border: .15em solid #f57d00;
     border-right: none;
-    background: #ffff;
+    background: #fff;
     color: #f57d00;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -278,7 +278,7 @@ table {
     padding: .3em;
     border: .15em solid #f57d00;
     border-left: none;
-    background: #ffff;
+    background: #fff;
     color: #f57d00;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -292,7 +292,7 @@ table {
     border: .15em solid #f57d00;
     border-left: none;
     background: #f57d00;
-    color: #ffff;
+    color: #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -324,7 +324,7 @@ table {
     width: 3.5em;
     height: 3.5em;
     padding: .2em;
-    color: #ffff;
+    color: #fff;
     font-size: 1.5em;
     line-height: .8;
     font-weight: bold;
@@ -336,7 +336,7 @@ table {
 
 .choice-header-part-2-price-south::before {
     content: '1500';
-    color: #ffff;
+    color: #fff;
     font-size: 2.3em;
     transform: scaleX(.9);
     -webkit-transition: all .3s ease-in;
@@ -349,7 +349,7 @@ table {
 
 .choice-header-part-2-price-north::before {
     content: '2000';
-    color: #ffff;
+    color: #fff;
     font-size: 2.3em;
     transform: scaleX(.9);
 }
