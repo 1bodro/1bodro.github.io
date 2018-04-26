@@ -139,7 +139,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
+    align-items:center;
     width: 55em;
     top: 5em;
 }
