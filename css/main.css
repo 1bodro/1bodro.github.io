@@ -1320,7 +1320,6 @@ table {
     justify-content: center;
     text-align: center;
     margin-bottom: 1em;
-    padding: 0 1em 0 6em;
 }
 
 .moto-tour-footer-contact-header {
@@ -1364,8 +1363,7 @@ table {
     background: #ffffff;
     border-radius: 1em;
     padding: 1em 2em 1em 4em;
-    margin-bottom: 3em;
-
+    margin: 0 1em 3em 6em;
 }
 
 .contact-vk-img {
@@ -1380,6 +1378,7 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    margin: 0 1em 0 6em;
 }
 
 .contact-social-part {
