@@ -1044,6 +1044,24 @@ table {
 }
 
 
+/* ====================================================================================================================
+ * RESETS
+ * ====================================================================================================================*/
+
+.flex-container a:hover,
+.flex-slider a:hover {
+    outline: none;
+}
+
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
 .flex-pauseplay span {
     text-transform: capitalize;
 }
@@ -1182,15 +1200,13 @@ html[xmlns] .flexslider .slides {
 }
 
 .flex-direction-nav a {
-    background: url("../image/slider/controls-prev.png");
-    background-size: cover;
+    content: url("../image/slider/controls-prev.png");
     color: rgba(0, 0, 0, 0.8);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
 
 .flex-direction-nav a.flex-next {
-    background: url("../image/slider/controls-next.png");
-     background-size: cover;
+    content: url("../image/slider/controls-next.png");
     color: rgba(0, 0, 0, 0.8);
     text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
 }
@@ -1373,8 +1389,6 @@ html[xmlns] .flexslider .slides {
         padding: 6px;
     }
 }
-
-
 
 
 /*moto-tour-why-we*/
