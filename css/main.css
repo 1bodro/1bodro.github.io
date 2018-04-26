@@ -139,7 +139,7 @@ table {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin:0 2em;
+    
     width: 55em;
     top: 5em;
 }
@@ -147,6 +147,8 @@ table {
 .header-infoblock-top {
     background: url(../image/block-audio/top.png) no-repeat center bottom;
     min-height: 20em;
+    width: inherit;
+    align-items: center;
     background-size: 100%;
     display: flex;
     flex-direction: column;
