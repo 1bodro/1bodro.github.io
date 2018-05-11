@@ -332,6 +332,7 @@ table {
 
 .choice-header-part-2-price-south span {
     transform: scaleX(.9);
+    color: #fff;
 }
 
 .choice-header-part-2-price-south::before {
