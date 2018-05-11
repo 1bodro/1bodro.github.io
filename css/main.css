@@ -225,7 +225,7 @@ table {
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #ffff;
+    background: #fff;
     width: 100%;
     height: 6em;
     padding: 0 3em;
@@ -253,7 +253,7 @@ table {
     border: .15em solid #f57d00;
     border-right: none;
     background: #f57d00;
-    color: #ffff;
+    color: #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -265,7 +265,7 @@ table {
     padding: .3em;
     border: .15em solid #f57d00;
     border-right: none;
-    background: #ffff;
+    background: #fff;
     color: #f57d00;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -278,7 +278,7 @@ table {
     padding: .3em;
     border: .15em solid #f57d00;
     border-left: none;
-    background: #ffff;
+    background: #fff;
     color: #f57d00;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
@@ -292,7 +292,7 @@ table {
     border: .15em solid #f57d00;
     border-left: none;
     background: #f57d00;
-    color: #ffff;
+    color: #fff;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -o-transition: all .3s ease-in;
@@ -336,7 +336,7 @@ table {
 
 .choice-header-part-2-price-south::before {
     content: '1500';
-    color: #ffff;
+    color: #fff;
     font-size: 2.3em;
     transform: scaleX(.9);
     -webkit-transition: all .3s ease-in;
@@ -349,7 +349,7 @@ table {
 
 .choice-header-part-2-price-north::before {
     content: '2000';
-    color: #ffff;
+    color: #fff;
     font-size: 2.3em;
     transform: scaleX(.9);
 }
@@ -777,7 +777,7 @@ table {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background: #ffffff;
+    background: #fff;
     width: 55em;
     border-radius: 2em;
     padding: 1em;
@@ -926,7 +926,7 @@ table {
 
 .moto-tour-comments {
     position: relative;
-    background: #ffffff;
+    background: #fff;
     padding: 0;
     margin-top: 2em;
 }
@@ -1126,7 +1126,7 @@ table {
     font-size: 3.5em;
     padding: .5em 1em;
     text-transform: uppercase;
-    color: #ffff;
+    color: #fff;
     border-radius: .5em;
     text-align: center;
 }
@@ -1145,7 +1145,7 @@ table {
     align-items: center;
     justify-content: center;
     font-size: 3em;
-    background: #ffff;
+    background: #fff;
 }
 
 .why-we-zakaz-tour-tocall > * {
@@ -1361,7 +1361,7 @@ table {
     flex-direction: column;
     flex-wrap: wrap;
     text-align: left;
-    background: #ffffff;
+    background: #fff;
     border-radius: 1em;
     padding: 1em 2em 1em 4em;
     margin-bottom: 3em;
@@ -1386,7 +1386,7 @@ table {
     display: flex;
     position: relative;
     flex-direction: column;
-    background: #ffffff;
+    background: #fff;
     border-radius: 1em;
     padding: 1em 2em 0 4em;
     margin: 0 2em;
@@ -1430,7 +1430,7 @@ table {
     background: #6d6d6d;
     width: 100%;
     font-family: 'Bicubik';
-    color: #ffff;
+    color: #fff;
 }
 
 .footer-rule-text {
