@@ -358,6 +358,7 @@ table {
 .choice-header-part-2-another-price {
     display: flex;
     flex-direction: row;
+    padding-top: .5em;
 }
 
 .another-price-items {
