@@ -101,6 +101,7 @@ table {
 
 .palm-img-footer {
     position: absolute;
+    top: -18em;
     width: 100%;
     z-index: 10;
 }
