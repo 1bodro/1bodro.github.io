@@ -1380,8 +1380,6 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    width: 100%;
-    max-width: 31em;
 }
 
 .contact-social-part {
@@ -1498,6 +1496,13 @@ table {
     .moto-tour-info-statistic {
         font-size:1em;
     }
+}
+
+@media (max-width: 733px) {
+.contact-social {
+    width: 100%;
+    max-width: 31em;
+}
 }
 
 @media (max-width: 700px) {
