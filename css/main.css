@@ -1380,6 +1380,8 @@ table {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    width: 100%;
+    max-width: 31em;
 }
 
 .contact-social-part {
@@ -1519,7 +1521,8 @@ table {
     .moto-tour-info-regulation-section {
         flex-direction: column;
         align-items: center;
-        width: 30em;
+        max-width: 30em;
+        width: 100%;
     }
     .moto-tour-info-regulation {
         width: 80%;
@@ -1573,11 +1576,13 @@ table {
     .moto-tour-info-regulation-section {
         flex-direction: column;
         align-items: center;
-        width: 20em;
     }
     .header-video {
         height: 43em;
     }
+    .moto-tour-info-regulation {
+    width: 90%;
+}
 }
 
 @media (max-width: 400px) {
