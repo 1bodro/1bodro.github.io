@@ -838,7 +838,7 @@ table {
 }
 
 .section-no-content p {
-    margin-bottom: 2.5em;
+    margin-bottom: 1.5em;
 }
 
 .section-flex-down {
@@ -915,8 +915,8 @@ table {
 .card-sun-cream {
     margin-top: 3em;
     position: relative;
-    top: -37.5em;
-    left: 9em;
+    top: -36em;
+    left: 8em;
     order: 2;
     display: flex;
     flex-direction: column;
@@ -1493,6 +1493,9 @@ table {
         top: -10em;
         right: -24em;
     }
+    .moto-tour-info-statistic {
+        font-size:1em;
+    }
 }
 
 @media (max-width: 700px) {
@@ -1519,7 +1522,7 @@ table {
         width: 30em;
     }
     .moto-tour-info-regulation {
-        width: 25em;
+        width: 80%;
         height: auto;
     }
     .moto-tour-choice-header {
