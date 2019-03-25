@@ -658,75 +658,12 @@
 
 	<!-- js-->
 	<script src="js/jquery-3.3.1.min.js"></script>
-	<script>
-		$(document).ready(function() {
-			$(".choice-button").click(function() {
-				$(".button-south").toggleClass("button-south-2");
-				$(".button-north").toggleClass("button-north-2");
-				$(".choice-header-part-2-price-south").toggleClass("choice-header-part-2-price-north");
-				$(".another-price-items-photo-south").toggleClass("another-price-items-photo-north");
-				$(".another-price-items-video-south").toggleClass("another-price-items-video-north");
-				$(".choice-island-south").toggleClass("choice-island-sourth-none");
-				$(".choice-island-north-none").toggleClass("choice-island-north");
-				return false;
-			});
-		});
-
-	</script>
-
+	<script src="js/main.js"></script>
 	<!-- Callform -->
 	<script src="js/callform.js"></script>
 	<!-- FlexSlider -->
-
 	<script defer src="js/jquery.flexslider.js"></script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			$('.flexslider').flexslider({
-				animation: "slide",
-				start: function(slider) {
-					$('body').removeClass('loading');
-				}
-			});
-		});
-
-	</script>
-
 	<!--Parallax-->
-
 	<script src="js/rellax.min.js"></script>
-	<script>
-		// Accepts any class name
-		var rellax = new Rellax('.rellax', {
-			center: true
-		});
-
-	</script>
-
-	<!-- back to top -->
-
-	<script>
-		$(document).ready(function() {
-			$("#back-top").hide();
-			$(function() {
-				$(window).scroll(function() {
-					if ($(this).scrollTop() > 100) {
-						$('#back-top').fadeIn();
-					} else {
-						$('#back-top').fadeOut();
-					}
-				});
-				$('#back-top a').click(function() {
-					$('body,html').animate({
-						scrollTop: 0
-					}, 800);
-					return false;
-				});
-			});
-		});
-
-	</script>
-
-</body>
-
+    </body>
 </html>
